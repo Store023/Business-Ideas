@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #4CAF50, #2E8B57);
+  color: white;
+  text-align: center;
+}
+
+header {
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+input {
+  padding: 10px;
+  width: 50%;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.idea-card {
+  background: white;
+  color: black;
+  padding: 15px;
+  margin: 15px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.idea-card:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
